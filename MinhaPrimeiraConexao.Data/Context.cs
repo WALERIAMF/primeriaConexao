@@ -13,9 +13,12 @@ namespace MinhaPrimeiraConexao.data
         public DbSet<Turma> Aluno { get; set; }
         public DbSet<Professor> Professor { get; set; }
         public DbSet<Disciplina> Disciplinas { get; set; }
-        public DbSet<Turma> Turma { get; set; }
         public DbSet<TurmaProfessor> TurmaProfessor { get; set; }
-     
+        public DbSet<Turma> Turma { get; set; }
+
+
+
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

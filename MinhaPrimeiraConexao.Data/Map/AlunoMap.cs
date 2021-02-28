@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Conexao.Domain;
+using Conexao.Domain.Domain;
 
 namespace MinhaPrimeiraConexao.Data.Map
 {

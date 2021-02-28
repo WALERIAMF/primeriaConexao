@@ -1,9 +1,8 @@
-﻿using Conexao.Domain.Models;
+﻿using Conexao.Domain.Domain;
+
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Text;
+
 
 namespace MinhaPrimeiraConexao.Data.Map
 {
